@@ -6,7 +6,10 @@ def linearSearch(list, num):
             return i
         else:
             return None
-        
+
+#linear search takes too much time
+#use binary search
+               
 list_num = [5,45,21,8,63,9,41,22,10]
 res = linearSearch(list_num, 48)
 print(f"{res}")
